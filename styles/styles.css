@@ -1,0 +1,52 @@
+:root {
+    --gray: hsl(212, 45%, 89%);
+    --gray-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+html {
+    font-family: 'Alata', sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: var(--gray);
+}
+
+main {
+    width: 200px;
+    height: 360px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+    margin-top: 4rem;
+}
+
+.qr-image {
+    border-radius: 10px;
+    width: 220px;
+    height: auto;
+    text-align: center;
+    margin-top: -10px;
+}
+
+h1 {
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 5px;
+    color: var(--dark-blue);
+}
+
+p {
+    font-size: 0.75rem;
+    text-align: center;
+    color: var(--gray-blue);
+    font-family: 'Josefin Sans', 'sans-serif';
+    font-weight: 700
+}
